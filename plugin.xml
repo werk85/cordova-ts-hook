@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="cordova-ts-hook"
+    version="0.0.1">
+
+    <name>cordova-ts-hook</name>
+    <description>Cordova/Phonegap plugin to allow the definition of hooks via TypeScript</description>
+    <author>Malte Legenhausen</author>
+
+    <engines>
+        <engine name="cordova" version=">=3.0.0" />
+    </engines>
+
+    <repo>https://github.com/werk85/cordova-ts-hook.git</repo>
+    <issue>https://github.com/werk85/cordova-ts-hook/issues</issue>
+
+    <keywords>ecosystem:cordova,cordova,phonegap,ios,android,hook,typescript</keywords>
+
+    <license>MIT</license>
+
+    <hook src="hooks/hook.js" type="before_platform_add" />
+    <hook src="hooks/hook.js" type="after_platform_add" />
+    <hook src="hooks/hook.js" type="before_platform_rm" />
+    <hook src="hooks/hook.js" type="after_platform_rm" />
+    <hook src="hooks/hook.js" type="before_platform_ls" />
+    <hook src="hooks/hook.js" type="after_platform_ls" />
+    <hook src="hooks/hook.js" type="before_prepare" />
+    <hook src="hooks/hook.js" type="after_prepare" />
+    <hook src="hooks/hook.js" type="before_compile" />
+    <hook src="hooks/hook.js" type="after_compile" />
+    <hook src="hooks/hook.js" type="before_deploy" />
+    <hook src="hooks/hook.js" type="before_build" />
+    <hook src="hooks/hook.js" type="after_build" />
+    <hook src="hooks/hook.js" type="before_emulate" />
+    <hook src="hooks/hook.js" type="after_emulate" />
+    <hook src="hooks/hook.js" type="before_run" />
+    <hook src="hooks/hook.js" type="after_run" />
+    <hook src="hooks/hook.js" type="before_serve" />
+    <hook src="hooks/hook.js" type="after_serve" />
+    <hook src="hooks/hook.js" type="before_clean" />
+    <hook src="hooks/hook.js" type="after_clean" />
+    <hook src="hooks/hook.js" type="pre_package" />
+    <hook src="hooks/hook.js" type="before_plugin_add" />
+    <hook src="hooks/hook.js" type="after_plugin_add" />
+    <hook src="hooks/hook.js" type="before_plugin_rm" />
+    <hook src="hooks/hook.js" type="after_plugin_rm" />
+    <hook src="hooks/hook.js" type="before_plugin_ls" />
+    <hook src="hooks/hook.js" type="after_plugin_ls" />
+    <hook src="hooks/hook.js" type="before_plugin_search" />
+    <hook src="hooks/hook.js" type="after_plugin_search" />
+    <hook src="hooks/hook.js" type="before_plugin_install" />
+    <hook src="hooks/hook.js" type="after_plugin_install" />
+    <hook src="hooks/hook.js" type="before_plugin_uninstall" />
+</plugin>
+

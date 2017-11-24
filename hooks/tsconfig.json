@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "module": "commonjs"
+  },
+  "include": [
+    "**/*.ts"
+  ]
+}

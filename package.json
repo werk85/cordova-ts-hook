@@ -1,0 +1,35 @@
+{
+    "version": "0.0.1",
+    "name": "cordova-ts-hook",
+    "cordova_name": "cordova-ts-hook",
+    "description": "Cordova/Phonegap plugin to allow the definition of hooks via TypeScript",
+    "author": "Malte Legenhausen",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/werk85/cordova-ts-hook.git"
+    },
+    "issue": "https://github.com/werk85/cordova-ts-hook/issues",
+    "cordova": {
+        "id": "cordova-custom-config"
+    },
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "keywords": [
+        "ecosystem:cordova",
+        "cordova",
+        "phonegap",
+        "typescript",
+        "hook"
+    ],
+    "dependencies": {
+        "ts-node": "^3.3.0"
+    },
+    "devDependencies": {
+        "typescript": "^2.6.1"
+    },
+    "scripts": {
+      "prepublish": "tsc",
+      "start": "tsc"
+    }
+}
