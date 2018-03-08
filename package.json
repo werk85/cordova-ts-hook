@@ -1,5 +1,5 @@
 {
-    "version": "0.0.1",
+    "version": "0.0.2",
     "name": "cordova-ts-hook",
     "cordova_name": "cordova-ts-hook",
     "description": "Cordova/Phonegap plugin to allow the definition of hooks via TypeScript",
@@ -23,13 +23,13 @@
         "hook"
     ],
     "dependencies": {
-        "ts-node": "^3.3.0"
+        "ts-node": "^5.0.1"
     },
     "devDependencies": {
         "typescript": "^2.6.1"
     },
     "scripts": {
-      "prepublish": "tsc",
-      "start": "tsc"
+        "prepublish": "tsc",
+        "start": "tsc"
     }
 }
