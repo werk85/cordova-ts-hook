@@ -34,5 +34,5 @@ module.exports = (context) => {
     .reduce(concatPlatformHooks(doc), globalHooks)
     .filter(filterScriptByHookType(hook));
 
-  reduceP(hooks, execHook(context));
+  return reduceP(hooks, execHook(context));
 };
