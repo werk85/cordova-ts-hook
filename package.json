@@ -1,5 +1,5 @@
 {
-    "version": "0.0.2",
+    "version": "0.0.3",
     "name": "cordova-ts-hook",
     "cordova_name": "cordova-ts-hook",
     "description": "Cordova/Phonegap plugin to allow the definition of hooks via TypeScript",
